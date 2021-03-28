@@ -1,0 +1,21 @@
+{
+  "name": "ytfair_server",
+  "version": "1.0.0",
+  "description": "yt feedback comment system",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "tuvrai",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "modclean": "^3.0.0-beta.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "14.x"
+  }
+}
