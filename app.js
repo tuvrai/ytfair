@@ -30,12 +30,13 @@ function updateData()
 }
 
 app.get('/',(req,res)=>{
-	res.send('hi siema!');
+	res.send('hi siemano!');
 });
 
 app.get('/api/comments/:vid',(req,res)=>{
 	const found = data.comments.filter(el => el.vid == req.params.vid)
 	const obj = JSON.stringify(found);
+	console.log("request to vid");
 	res.send(obj);
 });
 
